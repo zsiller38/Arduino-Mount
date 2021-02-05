@@ -23,7 +23,7 @@ Final assembly:
 Building it in real life:
 
 ### Images
-<img src="Images/IMG_20210205_094856.jpg" alt="IMG_20210205_094856.jpg" width="200" height="200">
+<img src="Images/IMG_20210205_094856.jpg" alt="IMG_20210205_094856.jpg" width="300" height="400">
 
 ---
 ## Design
