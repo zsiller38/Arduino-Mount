@@ -33,10 +33,15 @@ Building it in real life:
 
 ### Evidence
 Ramp and base
+
 Legs to hold it up
+
 Ball return path 
+
 Servo module with paddle
+
 Connection points
+
 Final assembly
 
 ## Construction
