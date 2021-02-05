@@ -7,12 +7,19 @@ Our idea is to create a little ramp and use our servo to hit a ball up that ramp
 
 ### Schedule
 Ramp and base: Zac
+
 Legs to hold it up:
+
 Ball return path: 
+
 Servo module with paddle: 
+
 Arduino wiring plan:
+
 Connection points:
+
 Final assembly:
+
 Building it in real life:
 
 ### Images
