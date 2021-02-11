@@ -36,7 +36,7 @@ Building it in real life:
 
 ### Images
 Base
-<img src="Images/BaseArduino.png" alt="BaseArduino.png" width="300" height="400"
+<img src="Images/BaseArduino.png" alt="BaseArduino" width="300" height="400"
 
 Ramp
 <img src="Images/IMG_20210205_094856.jpg" alt="IMG_20210205_094856.jpg" width="300" height="400"
