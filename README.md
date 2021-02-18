@@ -81,6 +81,10 @@ Building it in real life:
 
 [Assembly](https://cvilleschools.onshape.com/documents/57f349c920b3da7be96b1ff0/w/b5f5c9a8493b548af2075f45/e/a862f202f23f913e201b4262)
 
+[Basket](https://cvilleschools.onshape.com/documents/57f349c920b3da7be96b1ff0/w/b5f5c9a8493b548af2075f45/e/afc6de6bad3ef510bf1a43e8)
+
+[Arm](https://cvilleschools.onshape.com/documents/57f349c920b3da7be96b1ff0/w/b5f5c9a8493b548af2075f45/e/57320502d59f291ab3e57d0e)
+
 ## Construction
 
 ## Final Thoughts
