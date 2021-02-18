@@ -14,9 +14,9 @@ Rails: done
 
 Button pannel: done
 
-Ball return path: 
+Ball return path: done
 
-Servo module with paddle: 
+Servo module with paddle: done
 
 Arduino and Servo brackets:
 
@@ -56,6 +56,12 @@ Building it in real life:
 
 #### Rail 2
 <img src="Images/Rail 2.png" alt="Rail 2.png" width="300" height="400">
+
+#### Basket
+<img src="Images/Basket.png" alt="Basket.png" width="300" height="400">
+
+#### Arm
+<img src="Images/Arm.png" alt="Arm.png" width="300" height="400">
 
 ### Evidence
 
