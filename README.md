@@ -63,6 +63,7 @@ Building it in real life:
 #### Arm
 <img src="Images/Arm.png" alt="Arm.png" width="300" height="400">
 
+---
 ### Evidence
 
 [Ramp](https://cvilleschools.onshape.com/documents/57f349c920b3da7be96b1ff0/w/b5f5c9a8493b548af2075f45/e/e82e654f3b537c960b82a00c)
@@ -84,6 +85,45 @@ Building it in real life:
 [Basket](https://cvilleschools.onshape.com/documents/57f349c920b3da7be96b1ff0/w/b5f5c9a8493b548af2075f45/e/afc6de6bad3ef510bf1a43e8)
 
 [Arm](https://cvilleschools.onshape.com/documents/57f349c920b3da7be96b1ff0/w/b5f5c9a8493b548af2075f45/e/57320502d59f291ab3e57d0e)
+
+---
+### Code
+
+/*
+  Evie Brantley and Zachary Siller
+  3/3/21
+  When you push a button, this code spins a servo forwards (left) and has it reset to its original position
+*/
+#include <Servo.h>
+
+Servo myServo;
+int BtnPin = 8;
+int servoPin = 2;
+int BtnState = 0;
+int ServoRest = 0;
+int ServoShoot = 90;
+void setup() {
+  Serial.begin(9600);
+  myServo.attach(servoPin);//Attaches the servo object to a pin
+  pinMode(BtnPin, INPUT);
+  pinMode(servoPin, OUTPUT);
+  Serial.println("begin");
+  myServo.write(ServoRest);//puts rest position at 0 degrees
+}
+void loop() {
+  BtnState = digitalRead(BtnPin);
+  Serial.print("Btnstate = ");
+  Serial.println(BtnState);
+  if (BtnState == HIGH) {
+    Serial.println("Button On");
+    myServo.write(ServoShoot);//assuming we are using standard servo. (if cont. rotation,70-89)
+    delay(500);
+    myServo.write(ServoRest);//I think this returns it to the original position?
+  }
+  else {
+    Serial.println("Off");
+  }
+}
 
 ## Construction
 
