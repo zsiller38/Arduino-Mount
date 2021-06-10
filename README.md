@@ -88,43 +88,16 @@ Building it in real life:
 
 ---
 ### Code
+[Servo Code](https://create.arduino.cc/editor/zsiller38/94c54ea1-9731-4971-a171-92942db40642)
 
-/*
-  Evie Brantley and Zachary Siller
-  3/3/21
-  When you push a button, this code spins a servo forwards (left) and has it reset to its original position
-*/
-#include <Servo.h>
-
-Servo myServo;
-int BtnPin = 8;
-int servoPin = 2;
-int BtnState = 0;
-int ServoRest = 0;
-int ServoShoot = 90;
-void setup() {
-  Serial.begin(9600);
-  myServo.attach(servoPin);//Attaches the servo object to a pin
-  pinMode(BtnPin, INPUT);
-  pinMode(servoPin, OUTPUT);
-  Serial.println("begin");
-  myServo.write(ServoRest);//puts rest position at 0 degrees
-}
-void loop() {
-  BtnState = digitalRead(BtnPin);
-  Serial.print("Btnstate = ");
-  Serial.println(BtnState);
-  if (BtnState == HIGH) {
-    Serial.println("Button On");
-    myServo.write(ServoShoot);//assuming we are using standard servo. (if cont. rotation,70-89)
-    delay(500);
-    myServo.write(ServoRest);//I think this returns it to the original position?
-  }
-  else {
-    Serial.println("Off");
-  }
-}
-
-## Construction
-
+---
 ## Final Thoughts
+
+### Cad
+The cad was very simple as it was mostly what we had already done. It was very cool to learn how to edit in context as well as how to insert premade parts like the arduino board.
+
+### Code
+Simaler to the Cad, the code was not that hard. It was just a modified 2 buttons one servo code, but we did need to do some tinkering with the servo start position.
+
+### Construction
+Construction was by far the hardest part, but it was also really fun. Learning how to cut acrylic was quite interesting as well as 3d printing. We had some trouble getting our 3d printed rails to fit together, so in the future I would probably try to avoid perfect fits with 3d printed parts. Overall the product was very fun and I really enjoyed engineering 1.
